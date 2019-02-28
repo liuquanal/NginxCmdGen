@@ -151,7 +151,7 @@ namespace NginxCmdGen
 
                 saveAssertFile("srv.exe",srvName+".exe",exeDir);
                 saveAssertFile("WinSrvD.exe", null, exeDir+"WinSrvD/");
-                saveAssertFile("ReadMe.txt", null, exeDir + "WinSrvD/");
+                saveAssertFile("ReadMe.md", null, exeDir + "WinSrvD/");
 
                 MessageBox.Show("生成成功！","恭喜！");
             }
