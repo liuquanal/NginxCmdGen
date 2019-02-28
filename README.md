@@ -36,7 +36,7 @@ Nginx的windows平台常用命令（如启动、停止、注册服务、移除�
 
 # 程序截图
 以生成nginx各种命令为例子：
-![image](https://github.com/liuquanal/NginxCmdGen/blob/master/NginxCmdGen/screenshot/screenshot01.png)
+![image](https://raw.githubusercontent.com/liuquanal/NginxCmdGen/master/NginxCmdGen/screenshot/screenshot01.png)
 
 # 版本记录
 - 1.0.0.0 首次发布
