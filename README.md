@@ -36,8 +36,10 @@ Nginx的windows平台常用命令（如启动、停止、注册服务、移除�
 
 # 程序截图
 - 生成nginx各种命令:
+
 ![image](https://raw.githubusercontent.com/liuquanal/NginxCmdGen/master/NginxCmdGen/screenshot/screenshot01.png)
 - 生成icecast的各种命令：（由于icecast不是很稳定，偶尔会崩溃，崩溃时需要重新启动，所以使用nohup模式，并且使用通用命令模式）
+
 ![image](https://raw.githubusercontent.com/liuquanal/NginxCmdGen/master/NginxCmdGen/screenshot/screenshot02.png)
 # 版本记录
 - 1.0.0.0 首次发布
