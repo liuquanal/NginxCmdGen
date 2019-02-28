@@ -17,7 +17,7 @@ Nginx的windows平台常用命令（如启动、停止、注册服务、移除�
 - WinSrvD/ReadMe.txt
 - 1.1-startup.bat
 - 1.2-stop.bat
-- 1.3-check-statee.bat
+- 1.3-check-state.bat
 - 1.4-service-install.bat
 - 1.5-service-remove.bat
 - 1.6-reload-cfg.bat
