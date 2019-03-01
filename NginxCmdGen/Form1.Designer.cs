@@ -70,7 +70,7 @@
             this.button1.Location = new System.Drawing.Point(79, 159);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 30);
-            this.button1.TabIndex = 2;
+            this.button1.TabIndex = 5;
             this.button1.Text = "生成";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -91,7 +91,7 @@
             this.textBox2.Location = new System.Drawing.Point(79, 37);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(520, 23);
-            this.textBox2.TabIndex = 3;
+            this.textBox2.TabIndex = 1;
             this.textBox2.Text = "nginx-service";
             // 
             // button2
@@ -100,7 +100,7 @@
             this.button2.Location = new System.Drawing.Point(219, 159);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(109, 30);
-            this.button2.TabIndex = 5;
+            this.button2.TabIndex = 6;
             this.button2.Text = "关闭";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -121,7 +121,7 @@
             this.textBox3.Location = new System.Drawing.Point(79, 67);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(520, 23);
-            this.textBox3.TabIndex = 6;
+            this.textBox3.TabIndex = 2;
             // 
             // label4
             // 
@@ -139,7 +139,7 @@
             this.textBox4.Location = new System.Drawing.Point(79, 128);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(520, 23);
-            this.textBox4.TabIndex = 8;
+            this.textBox4.TabIndex = 4;
             // 
             // checkBox1
             // 
@@ -147,7 +147,7 @@
             this.checkBox1.Location = new System.Drawing.Point(491, 168);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(108, 16);
-            this.checkBox1.TabIndex = 10;
+            this.checkBox1.TabIndex = 8;
             this.checkBox1.Text = "崩溃时自动恢复";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
@@ -158,7 +158,7 @@
             this.checkBox2.Location = new System.Drawing.Point(365, 168);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(120, 16);
-            this.checkBox2.TabIndex = 11;
+            this.checkBox2.TabIndex = 7;
             this.checkBox2.Text = "使用通用命令模式";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
@@ -179,7 +179,7 @@
             this.textBox5.Location = new System.Drawing.Point(79, 97);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(520, 23);
-            this.textBox5.TabIndex = 12;
+            this.textBox5.TabIndex = 3;
             // 
             // Form1
             // 
