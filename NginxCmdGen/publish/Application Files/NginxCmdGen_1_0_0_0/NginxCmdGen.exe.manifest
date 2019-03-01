@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NginxCmdGen.exe" version="1.0.0.0" publicKeyToken="d673b63327d3e910" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NginxCmdGen" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="NginxCmdGen.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+            如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换 
+            requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 节点将会禁用文件和注册表虚拟化。
+            如果要利用文件和注册表虚拟化实现向后 
+            兼容性，则删除 requestedExecutionLevel 节点。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NginxCmdGen.exe" size="201728">
+      <assemblyIdentity name="NginxCmdGen" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>pwdPqzroWw9Cbt95BFVOq6IZVNs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="screenshot\screenshot01.png" size="28690">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7W9CuqNMKA/a/sxUWsWDtfymb+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="screenshot\screenshot02.png" size="15578">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>egh6THxUL9Ph0cMzOWm5Am7SMFI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 此应用程序设计使用的所有 Windows 版本的列表。Windows 将会自动选择最兼容的环境。-->
+      <!-- 如果应用程序设计使用 Windows 7，请取消注释以下 supportedOS 节点-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=LIUQUAN\Administrator" issuerKeyHash="6031fa6ca941603de10f459b5c73f6983afd06cc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>aoNl4zuyHJnlCETI6SQ9MicDpls=</DigestValue></Reference></SignedInfo><SignatureValue>GiFwr22BCN7ZDqPo+oQ6Eeko/cFAt47V/dQ0huS5yyAmYFxiromqlpZfbaSlKi7wq+n8MZEiYlypOPvNYXV26WvOHAfcPm+da1jPM4I9ji+rl/T/YDob7PfRbJrWSOat3h/Zs15FBNN59N3FB0nCvRkD18AhpicbbuOCKefdDv8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sF2s8mghjH+z6iUHDbtWoiMuLquHbkrW7fzmcRwjidxm9R+iO7RMP7UJbegRhbPltbIv8oEy1/VaJ/myDhOApI2+CUV6s/SP9MiSKumrLUYutOmbqYf4ETckruZRcwxpcdNgTS8Dx7ABtUmJmIqnZK2K8RMjIyuj+EU3SPlKID0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5ba60327323d24e9c84408e5991cb23be365836a" Description="" Url=""><as:assemblyIdentity name="NginxCmdGen.exe" version="1.0.0.0" publicKeyToken="d673b63327d3e910" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LIUQUAN\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vzCOiQuoCKUiSwEu/YOjDkEGw+o=</DigestValue></Reference></SignedInfo><SignatureValue>jJ23fGIJPw4TFiMGkRgKi+kwoU+NXsrvfPxgxvXWx+d5ZDwA56vCISj4mO5kO537lAW3dBl3zvkiuyYIg8e9xm4itoTr0IwTeXXYwnRBAlLu0ybS8wd5FsaHKGxLxfmVLD6ETeMFbyifWrJrWp9xlOvPB53VOjmyNTMJ/9l0MYc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sF2s8mghjH+z6iUHDbtWoiMuLquHbkrW7fzmcRwjidxm9R+iO7RMP7UJbegRhbPltbIv8oEy1/VaJ/myDhOApI2+CUV6s/SP9MiSKumrLUYutOmbqYf4ETckruZRcwxpcdNgTS8Dx7ABtUmJmIqnZK2K8RMjIyuj+EU3SPlKID0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQfS1/oyXRzIBKuekvGg1CiTANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioATABJAFUAUQBVAEEATgBcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwHhcNMTkwMzAxMDU1OTUxWhcNMjAwMjI5MTE1OTUxWjA1MTMwMQYDVQQDHioATABJAFUAUQBVAEEATgBcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALBdrPJoIYx/s+olBw27VqIjLi6rh25K1u385nEcI4ncZvUfoju0TD+1CW3oEYWz5bWyL/KBMtf1Wif5sg4TgKSNvglFerP0j/TIkirpqy1GLrTpm6mH+BE3JK7mUXMMaXHTYE0vA8ewAbVJiZiKp2StivETIyMro/hFN0j5SiA9AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAZAY8Ubl3Zwqwx9NauvDVimHeGi5GjGBUD4r1n0dej+E2qWbIbGX9a+N4z9+AmzAcScwmH0QqwgrOYMW0yzpIaROfOPXilPwoMV0kWSms8HxBQPtsi6PFjECyo/w5AiE1J8INQsdHDfKUV1p2yz7LwoAB5Yddzmouqs76oNS/RmQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
